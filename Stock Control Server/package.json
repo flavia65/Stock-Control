@@ -14,5 +14,6 @@
     "express": "^5.1.0",
     "google-auth-library": "^9.15.1",
     "google-spreadsheet": "^4.1.4"
-  }
+  },
+  "start": "node stock-control-server/server.js"
 }
