@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "Stock Control Server/server.js",
+            "src": "stock-control-server/server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "Stock Control Server/server.js"
+            "dest": "stock-control-server/server.js"
         }
     ]
 }
