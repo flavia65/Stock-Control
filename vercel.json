@@ -1,6 +1,6 @@
 {
     "version": 2,
     "rewrites": [
-        {"source": "/(.*)", "destination": "/Stock Control Server/sever.js"}
+        {"source": "/(.*)", "destination": "/Stock Control Server/server.js"}
     ]
 }
