@@ -1,6 +1,15 @@
 {
     "version": 2,
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/Stock Control Server/server.js"}
+    "builds": [
+        {
+            "src": "Stock Control Server/server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "Stock Control Server/server.js"
+        }
     ]
 }

@@ -7,12 +7,13 @@ const { GoogleSpreadsheet } = require('google-spreadsheet')
 const { JWT } = require('google-auth-library')
 
 const app = express()
-const port = 5501
+const port = process.env.PORT //const port = 5501
 
 app.use(express.json())
 app.use(cors())
 
-const credentials = require('./credentials.json')
+const credentials = { client_email: process.env.GOOGLE_CLIENT_EMAIL, private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g,'\n')} //const credentials = require('./credentials.json')
+
 const sheetID = "1jBkKm4OnP4qFfF4X9n-lYIJFA18H8-U6d2ySpWAiKy8"
 
 const serviceAccountAuth = new JWT({
