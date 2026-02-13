@@ -18,6 +18,26 @@ app.use(express.static(path.join(__dirname, '../StockControl')))
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../StockControl/home/home.html'))
 })
+
+app.get('/add', (req, res) => {
+    res.sendFile(path.join(__dirname, '../StockControl/add/add.html'))
+})
+
+app.get('/scanner', (req, res) => {
+    res.sendFile(path.join(__dirname, '../StockControl/scanner/scanner.html'))
+})
+
+app.get('/subtract', (req, res) => {
+    res.sendFile(path.join(__dirname, '../StockControl/subtract/subtract.html'))
+})
+
+app.get('/all', (req, res) => {
+    res.sendFile(path.join(__dirname, '../StockControl/all/all.html'))
+})
+
+app.get('/category', (req, res) => {
+    res.sendFile(path.join(__dirname, '../StockControl/category/category.html'))
+})
 //
 
 const credentials = { client_email: process.env.CLIENT_EMAIL, private_key: process.env.PRIVATE_KEY?.replace(/\\n/g,'\n')} //const credentials = require('./credentials.json')
