@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Control</title>
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="http://192.168.56.1:5501/home/home.html"><button id="back"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ececec"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button></a>
+            
+            <img src="../android-chrome-192x192.png" id="logo">
+            
+            <h1>Editar Produto</h1>
+        </div>
+        
+    </header>
+    <section>
+        <div class="category-content">
+            <form name="submit-to-google-sheet">
+                <div class="row-1">
+                    <label class="barcodeLab">Cód. Do Produto</label>
+                    <div class="barcode">
+                        <input type="text" name="Codigo" id="barcode"><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M40-120v-200h80v120h120v80H40Zm680 0v-80h120v-120h80v200H720ZM160-240v-480h80v480h-80Zm120 0v-480h40v480h-40Zm120 0v-480h80v480h-80Zm120 0v-480h120v480H520Zm160 0v-480h40v480h-40Zm80 0v-480h40v480h-40ZM40-640v-200h200v80H120v120H40Zm800 0v-120H720v-80h200v200h-80Z"/></svg></a>
+                    </div>
+    
+                    <div class="name">
+                        <label class="nameLab">Nome Do Produto</label>
+                        <input type="text" id="name" name="Nome">
+                    </div>
+    
+                </div>
+
+                <div class="row-2">
+                
+                    <div class="price">
+                        <label class="priceLab">Preço</label>
+                        <span>R$</span>
+                        <input type="number" id="price" name="Preco" step="0.01">
+                    </div>
+                    
+                    <div class="quantity">
+                    <label class="quantityLab">Unid.</label>
+                    <input type="number" id="quantity" name="Quantidade">
+                    </div>
+                    
+                    <div class="category">
+                        <label class="categoryLab">Categoria</label>
+                        <select class="categorySel" id="categorySel" required name="Categoria">
+                            <option value="" disabled selected>selecione</option>
+                            <option value="001">câmara de ar</option>
+                            <option value="002">pneus</option>
+                            <option value="003">aros</option>
+                            <option value="004">cassetes</option>
+                            <option value="005">freios</option>
+                            <option value="006">câmbios</option>
+                            <option value="007">pedais</option>
+                            <option value="008">manetes</option>
+                            <option value="009">correntes</option>
+                            <option value="010">catracas</option>
+                            <option value="011">caixa de centro</option>
+                            <option value="012">coroa</option>
+                            <option value="013">cubos</option>
+                            <option value="014">garfos</option>
+                            <option value="015">guidão</option>
+                            <option value="016">raios</option>
+                            <option value="017">manoplas</option>
+                            <option value="018">pendivelas</option>
+                            <option value="019">abraçadeiras</option>
+                            <option value="020">selin</option>
+                            <option value="021">canotes</option>
+                            <option value="022">eixos</option>
+                            <option value="023">quadro</option>
+                            <option value="024">cabos</option>
+                            <option value="025">ferramentas</option>
+                            <option value="026">acessórios</option>
+                            <option value="027">manutenção</option>
+                            <option value="028">outros</option>
+            
+                        </select>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="cancelBtn">Cancelar</button>
+                    <button class="saveBtn">Salvar</button>
+                </div>
+            </form>
+           
+            
+            
+
+            
+        </div>
+        
+        
+    </section>
+    <footer>
+        <p>©Flávia Oliveira Melo</p>
+    </footer>
+    <script src="add.js" type="module"></script>
+</body>
+</html>

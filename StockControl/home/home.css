@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(0, 60, 150, 0.72);
+    width: 100%;
+    height: 300px;
+    @media screen and (max-width: 400px) {
+        height: 214px;
+    }
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    left: 5vmax;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#menu {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    color: #ececec;
+    transform: scale(1.6);
+    margin-left: 14%;
+    @media screen and (max-width: 400px) {
+        margin-left: 3%;
+        transform: scale(1.5);
+    }
+}
+
+#menu:active {
+    background-color: rgba(0, 60, 150, 0.60);
+}
+
+#logo {
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    left: 43%;
+    @media screen and (max-width: 400px) {
+        left: 16vmax;
+    }
+}
+
+.search {
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    top: 18%;
+    left: 3vmax;
+    margin-top: 2vmax;
+}
+
+.input-search {
+    width: 60%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    @media screen and (max-width: 400px) {
+        font-size: 18px;
+    }
+    
+}
+
+#scanner {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#scanner:active {
+    background-color: #d9d9d9;
+}
+
+#search {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+#search:active {
+    background-color: #d9d9d9;
+}
+
+
+section {
+    width: 98%;
+    min-height: 70vh;
+    display: block;
+}
+
+.content-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 20px;
+
+    @media screen and (max-width: 500px) {
+        gap: 3px;
+    }
+}
+
+.menuBtn {
+    width: 200px;
+    height: 200px;
+    @media screen and (max-width: 500px) {
+        width: 110px;
+        height: 130px;
+    }
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    @media screen and (max-width: 400px) {
+        font-size: 3.5vmax;
+    }
+    grid-row: 1;
+}
+
+section a {
+    background-color: rgba(0, 60, 150, 0.60);
+    border: none;
+    outline: none;
+    max-width: 22vmax;
+    min-height: 20vmax;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    max-width: 22vmax;
+    min-height: 20vmax;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ececec;
+    padding: 5px;
+    
+    cursor: pointer;
+    gap: 8px;
+    
+}
+
+section a:active {
+    background-color: rgba(0, 60, 150, 0.75);
+}
+
+/* #categoryBtn {
+    @media screen and (max-width: 400px) {
+        position: relative;
+        left: 50%;
+    }
+} */
+
+button p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-menu svg {
+    margin: 14px;
+    transform: scale(2.5);
+    @media screen and (max-width: 400px) {
+        transform: scale(1.8);
+    }
+    
+}
+
+.subtractBtn svg{
+    fill: #D62828;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+
+footer p {
+    color: #424242;
+    font-size: 20px;
+    @media screen and (max-width: 400px) {
+        font-size: 1.8vmax;
+    }
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
