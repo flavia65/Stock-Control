@@ -12,8 +12,8 @@ const searchBtn = document.getElementById('search')
 
 const sheetID = "1jBkKm4OnP4qFfF4X9n-lYIJFA18H8-U6d2ySpWAiKy8";
 // const sheetID = "1aaUOztAAAjP_VwMWwHrZKqkSA90YPv29D3kSLuVifro"
-// const apiURL = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json`;
-const apiURL = "https://stock-control-j.vercel.app/produtos";
+const apiURL = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json`;
+// const apiURL = "https://stock-control-j.vercel.app/produtos";
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxo8a7PsVjaTbK_b8saJoI7KMepNTisro-tWSKY-Wnp20s7KSHm4KQJU8f2DKOEWujh/exec'
 const proxyURL = 'https://cors-anywhere.herokuapp.com/';
 
