@@ -5,7 +5,7 @@ const searchBtn = document.querySelector('#search')
 
 searchBtn.addEventListener('click', () => {
     const searchValue = searchInp.value
-    window.location.href = `http://192.168.56.1:5501/all/all.html?info=${searchValue}`
+    window.location.href = `https://stock-control-j.vercel.app/all/all.html?info=${searchValue}`
 
     console.log(searchValue)
 })
