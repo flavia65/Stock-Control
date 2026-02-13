@@ -16,7 +16,7 @@ app.use(cors())
 const path = require('path')
 app.use(express.static(path.join(__dirname, '../StockControl')))
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../StockControl/all/all.html'))
+    res.sendFile(path.join(__dirname, '../StockControl/home/home.html'))
 })
 //
 
