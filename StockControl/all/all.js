@@ -23,7 +23,7 @@ const proxyURL = 'https://cors-anywhere.herokuapp.com/';
 
 async function fetchSheetData() {
     const response = await fetch(apiURL)
-    const json = await response.json() // await response.text()
+    const data = await response.json() // await response.text()
     // const json = JSON.parse(text.substring(47).slice(0, -2))
 
     // const data = parse(json)
