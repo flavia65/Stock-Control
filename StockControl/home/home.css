@@ -13,9 +13,12 @@ body {
 }
 
 header {
-    background-color: rgba(0, 60, 150, 0.72);
+    background: linear-gradient(180deg, rgb(34, 102, 228) 31%, rgb(28, 146, 230) 100%);
+    /* background-color: rgba(0, 60, 150, 0.72); */
     width: 100%;
     height: 300px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     @media screen and (max-width: 400px) {
         height: 214px;
     }
@@ -85,6 +88,8 @@ header {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
     font-size: 20px;
     @media screen and (max-width: 400px) {
         font-size: 18px;
@@ -100,6 +105,9 @@ header {
     align-items: center;
     padding: 5px;
     cursor: pointer;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px -10px;
+
 }
 
 #scanner:active {
@@ -113,6 +121,8 @@ header {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px -10px, rgba(0, 0, 0, 0.15) 10px -15px 35px -5px;;
 }
 
 #search:active {
@@ -162,29 +172,31 @@ section h1 {
 }
 
 section a {
-    background-color: rgba(0, 60, 150, 0.60);
+    background: linear-gradient(180deg, rgb(60, 115, 218) 0%, rgb(28, 146, 230) 87%);
     border: none;
     outline: none;
-    max-width: 22vmax;
-    min-height: 20vmax;
+    min-width: 15vmax;
+    max-height: 18vmax;
     margin: 5px;
     display: flex;
     justify-content: center;
     text-decoration: none;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
 }
 
 section button {
     background-color: transparent;
     border: none;
     outline: none;
-    max-width: 22vmax;
-    min-height: 20vmax;
-    margin: 5px;
+    min-width: 15vmax;
+    max-height: 18vmax;
+    margin: 10px;
     font-size: 16px;
     font-weight: 500;
     color: #ececec;
-    padding: 5px;
+    padding: 15px;
     
     cursor: pointer;
     gap: 8px;
@@ -192,7 +204,8 @@ section button {
 }
 
 section a:active {
-    background-color: rgba(0, 60, 150, 0.75);
+        background: linear-gradient(180deg, rgb(46, 108, 179));
+;
 }
 
 /* #categoryBtn {
@@ -210,6 +223,7 @@ button p {
 
 .content-menu svg {
     margin: 14px;
+    padding-top: 5px;
     transform: scale(2.5);
     @media screen and (max-width: 400px) {
         transform: scale(1.8);
