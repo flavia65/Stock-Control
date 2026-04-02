@@ -254,7 +254,7 @@ header h2 {
     }
     header h2 {
         transform: translateY(20px) translateX(6%);
-        top: 100%;
+        top: 105%;
     }
 
     #back, #rotation {
