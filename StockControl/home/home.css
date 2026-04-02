@@ -82,7 +82,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     @media screen and (max-width: 400px) {
-        width: 70%;
+        width: 80%;
         top: 16%;
         left: 10.001%;
     }
