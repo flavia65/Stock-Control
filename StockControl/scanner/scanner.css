@@ -229,7 +229,6 @@ header h2 {
 
 .rotate-wrapper.rotate {
     transform: rotate(90deg);
-    padding-top: 80px;
 
    @media screen and (max-width: 950px) {
     position: relative;
@@ -249,7 +248,7 @@ header h2 {
    
     header h1 {
         transform: translateY(60%) translateX(50%);
-        top: 60%;
+        top: 53%;
         margin-bottom: 5px;
     }
     header h2 {
@@ -259,7 +258,7 @@ header h2 {
     #back, #rotation {
         transform: translateY(30px) ;
         width: 80px;
-        top: 60%;
+        top: 53%;
     }
 
     #back {
