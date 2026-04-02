@@ -229,7 +229,7 @@ header h2 {
 
 .rotate-wrapper.rotate {
     transform: rotate(90deg);
-   
+    padding-top: 10px;
 
    @media screen and (max-width: 950px) {
     position: relative;
