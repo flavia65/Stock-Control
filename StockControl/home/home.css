@@ -80,7 +80,8 @@ header {
     margin-top: 2vmax;
 
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px -10px, rgba(0, 0, 0, 0.25) 10px -15px 35px -5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
 }
 
 .input-search {
@@ -107,8 +108,6 @@ header {
     align-items: center;
     padding: 5px;
     cursor: pointer;
-
-
 }
 
 #scanner:active {
