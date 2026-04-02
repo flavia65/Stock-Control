@@ -44,6 +44,7 @@ header {
     background-color: transparent;
     border: none;
     outline: none;
+    bottom: 20px;
     width: 30px;
     height: 30px;
     border-radius: 2px;
@@ -80,7 +81,7 @@ header h1 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    left: 33%;
+    left: 41%;
     top: 195%;
     font-size: 25px;
     @media screen and (max-width: 700px) {
