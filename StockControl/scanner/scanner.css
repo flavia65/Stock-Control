@@ -248,17 +248,18 @@ header h2 {
    
     header h1 {
         transform: translateY(60%) translateX(50%);
-        top: 53%;
+        top: 58%;
         margin-bottom: 5px;
     }
     header h2 {
         transform: translateY(20px) translateX(6%);
+        top: 190%;
     }
 
     #back, #rotation {
         transform: translateY(30px) ;
         width: 80px;
-        top: 53%;
+        top: 58%;
     }
 
     #back {
