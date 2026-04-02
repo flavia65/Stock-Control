@@ -83,8 +83,8 @@ header {
 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     @media screen and (max-width: 400px) {
-        width: 80%;
-        top: 15%;
+        width: 70%;
+        top: 16%;
         left: 10.001%;
     }
 
