@@ -52,7 +52,6 @@ header {
         transform: scale(1.5);
     }
     cursor: pointer;
-    margin-top: 10px;
 
 }
 
@@ -61,7 +60,6 @@ header {
 }
 
 #logo {
-    margin-top: 40px;
     position: absolute;
     display: flex;
     width: 80px;
