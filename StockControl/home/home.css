@@ -131,9 +131,9 @@ header {
 
 
 section {
-    padding-top: 2px;
+    padding-top: 20px;
     width: 100%;
-    min-height: 70vh;
+    height: 80vh;
     display: block;
     background: linear-gradient(180deg, rgba(253, 246, 214, 0.25), rgba(197, 182, 210, 0.25));
 }
