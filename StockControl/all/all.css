@@ -79,8 +79,7 @@ header {
     height: 50px;
     display: flex;
     justify-content: center;
-    /* top: 18%; */
-    bottom: -28%;
+    top: 28%;
     left: 20.001%;
     margin-top: 2vmax;
     border-radius: 8px;
@@ -89,7 +88,6 @@ header {
     @media screen and (max-width: 400px) {
         width: 80%;
         left: 10.001%;
-        margin-bottom: 20%;
     }
 
 }
