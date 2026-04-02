@@ -249,6 +249,7 @@ header h2 {
    
     header h1 {
         transform: translateY(60%) translateX(50%);
+        top: 60%;
         margin-bottom: 5px;
     }
     header h2 {
@@ -258,6 +259,7 @@ header h2 {
     #back, #rotation {
         transform: translateY(30px) ;
         width: 80px;
+        top: 60%;
     }
 
     #back {
