@@ -432,9 +432,11 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: end;
-    margin-top: 50px;
-    position: sticky;
-    top: 90%;
+    /* margin-top: 50px; */
+    /* position: sticky; */
+    bottom: -50px;
+    position: relative;
+    
 }
 
 footer p {
