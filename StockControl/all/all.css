@@ -48,7 +48,6 @@ header {
     transform: scale(1.6);
     left: 14%;
     @media screen and (max-width: 400px) {
-        left: 2%;
         transform: scale(1.5);
     }
     cursor: pointer;
@@ -75,7 +74,9 @@ header {
     display: flex;
     justify-content: center;
     top: 18%;
-    left: 20.001%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* left: 20.001%; */
     margin-top: 2vmax;
     border-radius: 8px;
 
@@ -83,7 +84,7 @@ header {
     @media screen and (max-width: 400px) {
         width: 80%;
         top: 17%;
-        left: 10.001%;
+        /* left: 10.001%; */
     }
 
 }
