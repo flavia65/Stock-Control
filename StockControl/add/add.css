@@ -88,8 +88,9 @@ header h1 {
     top: 195%;
     font-size: 25px;
     @media screen and (max-width: 700px) {
-        font-size: 3.3vmax;
+        font-size: 3vmax;
         top: 130%;
+        left: 2%;
     }
 }
 

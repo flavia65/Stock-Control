@@ -51,7 +51,7 @@ header {
     transform: scale(1.6);
     left: 14%;
     @media screen and (max-width: 400px) {
-        margin-left: 3%;
+        margin-left: 2%;
         transform: scale(1.5);
     }
     cursor: pointer;
@@ -90,7 +90,7 @@ header h1 {
     top: 195%;
     font-size: 25px;
     @media screen and (max-width: 400px) {
-        font-size: 3.3vmax;
+        font-size: 3vmax;
         top: 130%;
         flex-direction: row;
         text-align: center;
