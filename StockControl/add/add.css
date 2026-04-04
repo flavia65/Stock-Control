@@ -141,10 +141,10 @@ input {
 }
 
 .barcodeLab{
-    margin-right: 380px;
+    margin-right: 340px;
     @media screen and (max-width: 500px) {
         margin-right: 0;
-        margin-left: 20px;
+        margin-left: 8%;
         width: 100%;
     }
 }
@@ -169,7 +169,7 @@ input {
     padding: 5px;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 8%;
 }
 
 .barcode input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
@@ -212,7 +212,7 @@ input {
     font-size: 16px;
     font-weight: bold;
     text-transform: capitalize;
-    margin-right: 10px;
+    margin-right: 8%;
 }
 
 .nameLab {
@@ -238,11 +238,11 @@ input {
     
     display: flex;
     align-items: center;
-    margin-left: 7px;
+    margin-left: 1%;
     /* gap: 0; */
     /* flex-direction: column; */
     flex: 50;
-    flex-grow: 20;
+    flex-grow: 19;
 }
 
 label {
@@ -317,7 +317,7 @@ quantityLab {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-right: 7px;
+    margin-right: 8%;
 }
 
 select:required:invalid {
