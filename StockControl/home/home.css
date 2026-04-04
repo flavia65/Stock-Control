@@ -41,6 +41,7 @@ header {
     background-color: transparent;
     border: none;
     outline: none;
+    align-items: center;
     width: 30px;
     height: 30px;
     border-radius: 2px;
