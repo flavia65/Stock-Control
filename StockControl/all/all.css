@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(180deg, rgba(253, 246, 214, 0.25), rgba(197, 182, 210, 0.25));    width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     overflow-x: hidden;
 }
 

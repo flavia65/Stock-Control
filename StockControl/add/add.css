@@ -38,7 +38,6 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    left: 5vmax;
     margin-top: 30px;
     margin-bottom: 0;
     text-align: center;
@@ -55,7 +54,7 @@ header {
     border-radius: 2px;
     fill: #ececec;
     transform: scale(1.6);
-    margin-left: 14%;
+    left: 14%;
     @media screen and (max-width: 400px) {
         margin-left: 3%;
         transform: scale(1.5);
@@ -72,10 +71,8 @@ header {
     display: flex;
     width: 80px;
     height: 80px;
-    left: 43%;
-    @media screen and (max-width: 400px) {
-        left: 16vmax;
-    }
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header h1 {
@@ -86,13 +83,13 @@ header h1 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    left: 41%;
+    left: 50%;
+    transform: translateX(-50%);
     top: 195%;
     font-size: 25px;
     @media screen and (max-width: 700px) {
         font-size: 3.3vmax;
         top: 130%;
-        left: 19%;
     }
 }
 
