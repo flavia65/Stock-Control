@@ -54,7 +54,7 @@ header {
     border-radius: 2px;
     fill: #ececec;
     transform: scale(1.6);
-    left: 14%;
+    left: 10%;
     @media screen and (max-width: 400px) {
         transform: scale(1.5);
     }
