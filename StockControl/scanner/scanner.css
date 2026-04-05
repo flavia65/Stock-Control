@@ -119,7 +119,7 @@ header h2 {
     border-radius: 2px;
     fill: #ececec;
     /* top: 50%; */
-    right: 14%;
+    right: 10%;
     transform: scale(1.6);
     @media screen and (max-width: 400px) {
         transform: scale(1.5);
@@ -134,7 +134,7 @@ header h2 {
 .scanner-area, span{
     width: 100%;
     height: 20%;
-    background-color: #fff;
+    background-color: transparent;
     
 }
 

@@ -21,6 +21,23 @@ window.addEventListener('click', e => {
 
 //creating a detector
 
+camera.addEventListener('load', async function() {
+    navigador.mediaDevices.getUserMedia({video: true})
+    .then(stream => {
+        camera.srcObjet = stream
+    })
+    .cacth(error => {
+        console.error("camera not found!:(");
+        
+    })
+})
+
+
+
+
+
+
+
 // const quaggaConf = {
 //     inputStream: {
 //         target: document.querySelector(".camera"),
