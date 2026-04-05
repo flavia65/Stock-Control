@@ -51,7 +51,7 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     .catch(alert("Error!!"))
 }) 
 
-const barcodes = barcodeDetector.detect(camera)
+barcodeDetector.detect(camera)
     .then((barcodes) => {
     barcodes.forEach((barcode) => {
         alert(barcode.rawValue);
