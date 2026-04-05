@@ -54,7 +54,7 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
 const barcodes = barcodeDetector.detect(video)
     .then(alert(barcodes[0].rawValue))
     .cacth((error) => {
-        console.log(error)
+        alert(error)
     })
 
 
