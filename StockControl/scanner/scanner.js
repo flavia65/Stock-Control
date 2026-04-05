@@ -34,7 +34,7 @@ window.addEventListener('load', async function() {
     .then(stream => {
         camera.srcObject = stream
     })
-    .cacth(error => {
+    .catch(error => {
         console.error("camera not found!:(");
         
     })
@@ -48,12 +48,16 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     supportedFormats.forEach((format) => {
         console.log(format)
     })
-    .cacth(alert("Error!!"))
+    .catch(alert("Error!!"))
 }) 
 
-const barcodes = barcodeDetector.detect(video)
-    .then(alert(barcodes[0].rawValue))
-    .cacth((error) => {
+const barcodes = barcodeDetector.detect(camera)
+    .then((barcodes) => {
+    barcodes.forEach((barcode) => {
+        alert(barcode.rawValue);
+    });
+})
+    .catch((error) => {
         alert(error)
     })
 
