@@ -52,7 +52,7 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
 }) 
 
 barcodeDetector
-    .detect(camera)
+    .detect(video)
     .then((barcodes) => {
     barcodes.forEach((barcode) => {
         alert(barcode.rawValue)
