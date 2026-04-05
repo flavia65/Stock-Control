@@ -46,8 +46,9 @@ const barcodeDetector = new BarcodeDetector({
 
 BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     supportedFormats.forEach((format) => {
-        console.alert(format)
+        alert(format)
     })
+    .cacth(alert("!!"))
 }) 
 
 barcodeDetector
