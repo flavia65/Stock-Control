@@ -134,7 +134,7 @@ header h2 {
 .scanner-area, span{
     width: 100vw;
     height: 20%;
-    background-color: #ececec;
+    background-color: transparent;
     
 }
 
