@@ -21,10 +21,10 @@ window.addEventListener('click', e => {
 
 //creating a detector
 
-camera.addEventListener('load', async function() {
-    navigador.mediaDevices.getUserMedia({video: true})
+window.addEventListener('load', async function() {
+    navigator.mediaDevices.getUserMedia({video: true})
     .then(stream => {
-        camera.srcObjet = stream
+        camera.srcObject = stream
     })
     .cacth(error => {
         console.error("camera not found!:(");
