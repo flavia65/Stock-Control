@@ -46,7 +46,7 @@ const barcodeDetector = new BarcodeDetector({
 
 BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     supportedFormats.forEach((format) => {
-        alert(format)
+        console.log(format)
     })
     .cacth(alert("!!"))
 }) 
@@ -55,7 +55,7 @@ barcodeDetector
     .detect(imageEl)
     .then((barcodes) => {
     barcodes.forEach((barcode) => {
-        console.log(barcode.rawValue)
+        alert(barcode.rawValue)
     })
     .cacth((error) => {
         console.log(error)
