@@ -40,9 +40,26 @@ window.addEventListener('load', async function() {
     })
 })
 
+const barcodeDetector = new BarcodeDetector({
+    formats: ["code_39", "codabar", "ean_13"]
+})
 
+BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
+    supportedFormats.forEach((format) => {
+        console.log(format)
+    })
+}) 
 
-
+barcodeDetector
+    .detect(imageEl)
+    .then((barcodes) => {
+    barcodes.forEach((barcode) => {
+        console.log(barcode.rawValue)
+    })
+    .cacth((error) => {
+        console.log(error)
+    })
+})
 
 
 
