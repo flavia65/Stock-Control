@@ -25,7 +25,7 @@ window.addEventListener('load', async function() {
     const constraints = {
         video: {
             width: {ideal: 2220},
-            height: { ideal: 300},
+            height: { ideal: 2200},
             facingMode: "environment",
         }
     }
