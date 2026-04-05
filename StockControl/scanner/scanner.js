@@ -48,19 +48,16 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     supportedFormats.forEach((format) => {
         console.log(format)
     })
-    .cacth(alert("!!"))
+    .cacth(alert("Error!!"))
 }) 
 
-barcodeDetector
-    .detect(video)
+const barcodes = barcodeDetector.detect(video)
     .then((barcodes) => {
-    barcodes.forEach((barcode) => {
-        alert(barcode.rawValue)
-    })
+        alert(barcodes.rawValue)
+})
     .cacth((error) => {
         console.log(error)
     })
-})
 
 
 
