@@ -22,7 +22,14 @@ window.addEventListener('click', e => {
 //creating a detector
 
 window.addEventListener('load', async function() {
-    navigator.mediaDevices.getUserMedia({video: true})
+    const constraints = {
+        video: {
+            height: 210,
+            facingMode: "enviornment"
+        }
+    }
+
+    navigator.mediaDevices.getUserMedia(constraints)
     .then(stream => {
         camera.srcObject = stream
     })
