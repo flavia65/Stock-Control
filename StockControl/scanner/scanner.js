@@ -52,7 +52,7 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
 }) 
 
 barcodeDetector
-    .detect(imageEl)
+    .detect(camera)
     .then((barcodes) => {
     barcodes.forEach((barcode) => {
         alert(barcode.rawValue)
