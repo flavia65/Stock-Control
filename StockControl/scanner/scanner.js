@@ -51,12 +51,12 @@ BarcodeDetector.getSupportedFormats().then((supportedFormats) => {
     .catch(alert("Error!!"))
 }) 
 
-video.addEventListener('loadeddata', () => {
+camera.addEventListener('loadeddata', () => {
     scanner()
 })
 
 async function scanner() {
-    barcodeDetector.detect(video)
+    barcodeDetector.detect(camera)
     .then((barcodes) => {
     barcodes.forEach((barcode) => {
         alert(barcode.rawValue);
