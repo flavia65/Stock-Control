@@ -239,7 +239,7 @@ video {
     transform: rotate(90deg);
     padding-top: 50px;
 
-   @media screen and (max-width: 950px) {
+   /* @media screen and (max-width: 950px) { */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -298,4 +298,4 @@ video {
    
 }
   
-} 
+/* }  */
