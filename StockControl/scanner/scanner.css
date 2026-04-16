@@ -234,68 +234,19 @@ video {
     }
 }
 
-
 .rotate-wrapper.rotate {
     transform: rotate(90deg);
     padding-top: 50px;
 
-   /* @media screen and (max-width: 950px) { */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vh; /*900px*/
-    height: 100%; /*100%*/
-    transform: translateX(-18%) rotate(90deg);
-    transition: all 0.5s ease;
-
-    .container {
-        width: 100%;
-        /* transform: translateX(60px); */
-    }
-   
-    header h1 {
-        transform: translateY(60%) translateX(50%);
-        top: 58%;
-        margin-bottom: 5px;
-    }
-    header h2 {
-        transform: translateY(20px) translateX(6%);
-        top: 110%;
-    }
-
-    #back, #rotation {
-        transform: translateY(30px) ;
-        width: 80px;
-        top: 58%;
-    }
-
-    #back {
-        left: 20px;
-        top: 60px;
-        transform: scale(1.5);
-
-    }
-
-    #rotation {
-        top: 60px;
-        right: 100px;
-        transform: scale(1.5);
-    } 
-
     .scanner-area, span {
-        width: 20%;
-        height: 100vh;
-        transform: rotate(-90deg);
-        /* width: 100vmax; */
+        position: relative;
+        width: 100vmax;
         align-content: stretch;
     }
 
-    .body {
-        height: 1000px;
+    video {
+        transform: rotate(-90deg);
     }
-   
 }
-  
-/* }  */
+
+
