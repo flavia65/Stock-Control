@@ -285,7 +285,10 @@ video {
     } 
 
     .scanner-area, span {
-        width: 100vmax;
+        width: 20%;
+        height: 100vh;
+        transform: rotate(-90deg);
+        /* width: 100vmax; */
         align-content: stretch;
     }
 
