@@ -240,7 +240,6 @@ video {
 
     .scanner-area, span {
         position: relative;
-        width: 100vmax;
         align-content: stretch;
     }
 
