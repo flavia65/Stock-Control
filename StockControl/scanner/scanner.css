@@ -255,7 +255,7 @@ video {
     }
 
     header h1 {
-        transform: translateY(60%) translateX(50%);
+        /* transform: translateY(60%) translateX(50%); */
         top: 58%;
         margin-bottom: 5px;
     }
@@ -295,10 +295,9 @@ video {
         width: 20%;
         height: 100vmax;
         transform: rotate(-90deg);
+        transform-origin: center;
     }
-    .body {
-        height: 1000px;
-    }
+    
 
 
 
