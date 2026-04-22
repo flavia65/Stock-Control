@@ -239,6 +239,7 @@ video {
     padding-top: 50px;
 
     .scanner-area, span {
+        transform: rotate(90deg);
         position: relative;
         align-content: stretch;
     }
