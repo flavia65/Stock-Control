@@ -244,8 +244,12 @@ video {
         align-content: stretch;
     }
 
+    .scanner-area::before {
+        transform: rotate(90deg);
+    }
+
     video {
-        transform: rotate(-90deg);
+        transform: rotate(90deg);
     }
 }
 
