@@ -292,7 +292,7 @@ video {
     }
 
     video {
-        height: 10vmax;
+        height: 100vmax;
         width: 20vmax;
         transform: rotate(90deg);
     }
