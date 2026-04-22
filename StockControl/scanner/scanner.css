@@ -292,8 +292,9 @@ video {
     }
 
     video {
-        transform: scaleX(-1);
-       transform: rotate(90deg);
+        height: 100vmax;
+        width: 20vmax;
+        transform: rotate(90deg);
     }
     
 
