@@ -293,7 +293,7 @@ video {
 
     video {
         transform: scaleX(-1);
-        transform: scaleY(-1);
+       transform: rotate(90deg);
     }
     
 
