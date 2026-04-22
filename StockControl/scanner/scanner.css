@@ -292,8 +292,8 @@ video {
     }
 
     video {
-        height: 100vmax;
-        width: 20vmax;
+        height: 20vmax;
+        width: 50vmax;
         transform: rotate(90deg);
     }
     
