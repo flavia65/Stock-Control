@@ -260,7 +260,7 @@ video {
         margin-bottom: 5px;
     }
     header h2 {
-        transform: translateY(20px) translateX(6%);
+        /* transform: translateY(20px) translateX(6%); */
         top: 110%;
     }
 
@@ -292,6 +292,7 @@ video {
     }
 
     video {
+        transform: scaleX(-1);
         transform: scaleY(-1);
     }
     
