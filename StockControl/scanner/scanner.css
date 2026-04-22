@@ -295,7 +295,7 @@ video {
         height: 100vmax;
         width: 20vmax;
         transform: rotate(90deg);
-        transform: scaleY(-1);
+        transform: scaleX(-1);
     }
     
 
