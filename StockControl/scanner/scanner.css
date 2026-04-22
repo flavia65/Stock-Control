@@ -292,10 +292,7 @@ video {
     }
 
     video {
-        width: 20%;
-        height: 100vmax;
-        transform: rotate(-90deg);
-        transform-origin: center;
+        transform: scaleY(-1);
     }
     
 
