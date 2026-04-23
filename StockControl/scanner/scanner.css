@@ -284,8 +284,8 @@ video {
     } 
 
     .scanner-area, span {
-        width: 100vmax;
-        height: 20vmax;
+        width: 20vmax;
+        height: 100vmax;
 
 
 
@@ -293,8 +293,8 @@ video {
     }
 
     video {
-        position: absolute;
-        height: 20%;
+        /* position: absolute; */
+        height: 100%;
         width: 100%;
         top: 50%;
         bottom: 50%;
