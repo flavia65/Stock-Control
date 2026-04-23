@@ -284,7 +284,7 @@ video {
     } 
 
     .scanner-area, span {
-        width: 100vmax;
+        width: 20vmax;
         height: 100vmax;
 
 
@@ -294,7 +294,7 @@ video {
 
     video {
         height: 100%;
-        width: 20%;
+        width: 100%;
         transform: rotate(90deg);
     }
     
